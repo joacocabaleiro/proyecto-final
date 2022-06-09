@@ -132,7 +132,6 @@ header .NavContainer .BodyMenu li{
     grid-row-gap:5px ;
 }
 .FotosComprar img{
-    height:max-content;
     transition: 0.5s;
 }
 .FotosComprar img:hover{
