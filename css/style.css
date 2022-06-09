@@ -135,10 +135,10 @@ header .NavContainer .BodyMenu li{
     height:max-content;
     transition: 0.5s;
 }
-/*.FotosComprar img:hover{
+.FotosComprar img:hover{
     transform:scale(1.5)
 
-}*/
+}
 .TituloComprar{
     font-size: xx-large;
 }
