@@ -7,10 +7,12 @@
         <link rel="shortcut icon" href="imagenes/logo paola blaustein.PNG" type="image/x-icon">
         <title>Proyecto Coder</title>
         <link rel="stylesheet" href="css/style.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
-    <body>
+    <body class="BodyIndex">
         <header>
-            <nav class="NavContainer">
+            <!--<nav class="NavContainer">
                 <div>
                 <img class=Logo src="imagenes/logo paola blaustein.PNG" alt="logo"/>
                 <h1>Paola Blaustein</h1>
@@ -22,7 +24,39 @@
                     <li><a href="pagess/contacto.html">Contactanos</a></li>
                     <li><a href="pagess/comprar.html">Comprar</a></li>
                 </ul>
-            </nav>
+            </nav>-->
+            <nav class="navbar navbar-expand-lg " style="background-color: #FAC3AD">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                      <img src="imagenes/logo paola blaustein.PNG" alt="" width="41" height="47">
+                    </a>
+                  </div>
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Paola Blaustein</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pagess/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pagess/info.html">Informacion Importante</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pagess/contacto.html">Contactanos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pagess/comprar.html">Comprar</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
         <main>
             <nav>
@@ -40,6 +74,8 @@
                 <p>Diseñado por Joaquin cabaleiro</p>
             </section>
         </footer>
+        <!-- JavaScript Bundle with Popper--> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </body>
 </html>
 

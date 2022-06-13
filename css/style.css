@@ -17,6 +17,9 @@ h1{
 h2{
     margin-top: 170px;
 }
+.BodyIndex{
+    background-color: rgb(250, 204, 77);
+}
 .BodyMenu{
     display:inline; 
     padding: 0px;
@@ -87,7 +90,7 @@ main{
     position:relative;
     left:767px
 }
-header{
+/*header{
     position:fixed;
     top:0;
     z-index: 1;
@@ -95,7 +98,7 @@ header{
     max-height:min-content;
     background-color: #FAC3AD;
     grid-area: header;
-}
+}*/
 header .NavContainer{
     display:flex;
     flex-direction: row;
@@ -263,8 +266,6 @@ header .NavContainer .BodyMenu li{
             position:relative;
             left:767px
         }
-
-
 }
             
 
