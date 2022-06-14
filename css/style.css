@@ -98,7 +98,7 @@ main{
     max-height:min-content;
     background-color: #FAC3AD;
     grid-area: header;
-}*/
+}
 header .NavContainer{
     display:flex;
     flex-direction: row;
@@ -119,7 +119,8 @@ header .NavContainer .BodyMenu{
 header .NavContainer .BodyMenu li{
     list-style: none;
     margin-right: 20px;
-}
+}*/
+
 .FotosComprar{
 
     margin-top: 100px;
@@ -226,6 +227,10 @@ header .NavContainer .BodyMenu li{
    
 }
 @media screen and (min-width: 1024px) { 
+    .PaolaBlaustein{
+    position: relative;
+    right: 95%;
+}
     .FotosComprar{
         margin-top: 100px;
         margin-left: 40px;
