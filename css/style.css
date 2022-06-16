@@ -1,95 +1,112 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-h1{
-    margin-top: 5px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    position:relative;
-    left:85px ;
-    bottom:90px;
-    font-size: 400% ;
-    color:rgb(45, 45, 156);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h2{
-    margin-top: 170px;
-}
-.BodyIndex{
-    background-color: rgb(250, 204, 77);
-}
-.BodyMenu{
-    display:inline; 
-    padding: 0px;
-    margin-right: 70px;
-}
-.BodyMenu a{
-    font-size:x-large;
-}
-.Logo{
-   max-width: 100px;   
-}
-.FotoPrincipal{
-    max-width: 70%;
-    position:fixed;
-    right:10px;
-    top: 10px;
-    left:100px  
-}
-.FormularioContacto{
-    margin-top: 6px;
-}
-body{
-    background-color: rgb(250, 204, 77);
-}
-main{
-    margin-top: 150px;
-}
-.NavBotonComprar{
-    position:relative;
-    bottom: 600px;
-    display:inline-block;
-    background-color: rgb(250, 195, 173);
-    color:black;
-    border: none;
-    color:black;
-    padding: 10px;
-    text-align: left;
-    text-decoration: none;
-
-    font-size: 16px;
-    
-    cursor:pointer;
-    border-radius:5px;
-}
-.NavBotonComprar a{
-    position:relative;
-    color:black;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
-.CuadroContacto{
-    margin-right: 1500px;
-    position:relative ;
-    left:750px
+h1 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: relative;
+  left: 85px;
+  bottom: 90px;
+  font-size: 400%;
+  color: #2d2d9c;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.Contacto{
-    margin-bottom: 20px;
-    position:relative;
-    left: 750px;
+
+h2 {
+  margin-top: 170px;
 }
-.TituloContacto{
-    margin-bottom: 20px;
-    position:relative;
-    left:700px
+
+.BodyIndex {
+  background-color: #facc4d;
 }
-.RedesSocialesContacto{
-    margin-top: 30px;
-    position:relative;
-    left:767px
+
+.BodyMenu {
+  display: inline;
+  padding: 0px;
+  margin-right: 70px;
 }
+
+.BodyMenu a {
+  font-size: x-large;
+}
+
+.Logo {
+  max-width: 100px;
+}
+
+.FotoPrincipal {
+  max-width: 70%;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  left: 100px;
+}
+
+.FormularioContacto {
+  margin-top: 6px;
+}
+
+body {
+  background-color: #facc4d;
+}
+
+main {
+  margin-top: 150px;
+}
+
+.NavBotonComprar {
+  position: relative;
+  bottom: 600px;
+  display: inline-block;
+  background-color: #fac3ad;
+  color: black;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.NavBotonComprar a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar{
+    background-color: #fac3ad;
+}
+.CuadroContacto {
+  margin-right: 1500px;
+  position: relative;
+  left: 750px;
+}
+
+.Contacto {
+  margin-bottom: 20px;
+  position: relative;
+  left: 750px;
+}
+
+.TituloContacto {
+  margin-bottom: 20px;
+  position: relative;
+  left: 700px;
+}
+
+.RedesSocialesContacto {
+  margin-top: 30px;
+  position: relative;
+  left: 767px;
+}
+
 /*header{
     position:fixed;
     top:0;
@@ -120,160 +137,175 @@ header .NavContainer .BodyMenu li{
     list-style: none;
     margin-right: 20px;
 }*/
+.FotosComprar {
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 360px 360px 360px 360px;
+      grid-template-columns: 360px 360px 360px 360px;
+  grid-column-gap: 5px;
+  -ms-grid-rows: 450px 450px 450px;
+      grid-template-rows: 450px 450px 450px;
+  grid-row-gap: 5px;
+}
 
-.FotosComprar{
+.FotosComprar img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 
+.FotosComprar img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.TituloComprar {
+  font-size: xx-large;
+}
+
+.Slogan {
+  margin-top: 250px;
+  font-size: x-large;
+}
+
+.Wave {
+  margin-bottom: 0;
+  z-index: -1;
+}
+
+@media screen and (min-width: 320px) {
+  .FotosComprar {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    gap: 15px;
+    -ms-grid-rows: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
+    gap: 15px;
+    margin-top: 180px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  h1 {
+    font-size: 200%;
+    color: #2d2d9c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #FAC3AD;
+  }
+  #Menu {
+    display: none;
+  }
+  .BodyMenu {
+    max-width: 100%;
+  }
+  .NavContainer {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .BodyMenu li {
+    background-color: #775cff;
+  }
+  .NavFotoLibro {
+    margin: 0;
+    max-width: 100%;
+  }
+  .CuadroContacto {
+    position: relative;
+    left: 100px;
+  }
+  .Contacto {
+    margin-bottom: 20px;
+    position: relative;
+    left: 75px;
+  }
+  .RedesSocialesContacto {
+    margin-top: 30px;
+    position: relative;
+    left: 77px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .MenuBurguer_label {
+    display: none;
+  }
+  #Menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .PaolaBlaustein {
+    position: relative;
+    right: 95%;
+  }
+  .FotosComprar {
     margin-top: 100px;
     margin-left: 40px;
     margin-right: 40px;
     justify-items: stretch;
-    justify-content:space-between ;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 360px 360px 360px 360px ;
-    grid-column-gap:5px ;
-    grid-template-rows: 450px 450px 450px;
-    grid-row-gap:5px ;
-}
-.FotosComprar img{
-    transition: 0.5s;
-}
-.FotosComprar img:hover{
-    transform:scale(1.5)
-
-}
-.TituloComprar{
-    font-size: xx-large;
-}
-.Slogan{
-    margin-top: 250px;
-    font-size: x-large; 
-}
-.Wave{
-    margin-bottom: 0;
-    z-index: -1;
-}
-
-@media screen and (min-width: 320px) {
-
-    .FotosComprar{
-        display:grid;
-        grid-template-columns: 50% 50%;
-        gap: 15px;
-        grid-template-rows: auto auto auto auto auto auto;
-        gap:15px;
-        margin-top: 180px;
-        align-items:flex-end;    
-    }
-    h1{
-        font-size: 200% ;
-        color:rgb(45, 45, 156);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    header{
-        position:fixed;
-        top:0 ;
-        z-index: 1;
-        width:100%;
-        background-color: #FAC3AD;
-    }  
-    #Menu{
-        display:none;
-    }
-    .BodyMenu{
-        max-width: 100%;
-    }
-    .NavContainer{
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .BodyMenu li{
-        background-color:#775cff ;
-    }
-    .NavFotoLibro{
-        margin: 0;
-        max-width: 100% ;
-    }
-    .CuadroContacto{
-        position:relative ;
-        left:100px
-    }
-    .Contacto{
-        margin-bottom: 20px;
-        position:relative;
-        left:75px;
-    }
-    .RedesSocialesContacto{
-        margin-top: 30px;
-        position:relative;
-        left:77px
-    }
-}
-
-@media screen and (min-width: 480px) {
-    
-}
-@media screen and (min-width: 600px) {}
-
-@media screen and (min-width: 768px) { 
-    .MenuBurguer_label{
-        display:none;
-    }
-    #Menu{
-        display:none;
-    }
-   
-}
-@media screen and (min-width: 1024px) { 
-    .PaolaBlaustein{
-    position: relative;
-    right: 95%;
-}
-    .FotosComprar{
-        margin-top: 100px;
-        margin-left: 40px;
-        margin-right: 40px;
-        justify-items: stretch;
-        justify-content:space-between ;
-        align-items: center;
-        display: grid;
-        grid-template-columns: 360px 360px 360px 360px ;
-        grid-column-gap:5px ;
+    -ms-grid-columns: 360px 360px 360px 360px;
+        grid-template-columns: 360px 360px 360px 360px;
+    grid-column-gap: 5px;
+    -ms-grid-rows: 450px 450px 450px;
         grid-template-rows: 450px 450px 450px;
-        grid-row-gap:5px ;
-    }
-    .BodyMenu{
-        background-color: none;
-        position: relative;
-        top: 10px;
-        display:inline; 
-        padding: 0px;
-        margin-right: 70px;}
-        .BodyMenu li{
-            background-color: none;
-        }
-    .NavFotoLibro{
-        margin-left: 900px;}
-        .CuadroContacto{
-            margin-right: 1500px;
-            position:relative ;
-            left:750px
-        }
-        .Contacto{
-            margin-bottom: 20px;
-            position:relative;
-            left: 750px;
-        }
-        .RedesSocialesContacto{
-            margin-top: 30px;
-            position:relative;
-            left:767px
-        }
+    grid-row-gap: 5px;
+  }
+  .BodyMenu {
+    background-color: none;
+    position: relative;
+    top: 10px;
+    display: inline;
+    padding: 0px;
+    margin-right: 70px;
+  }
+  .BodyMenu li {
+    background-color: none;
+  }
+  .NavFotoLibro {
+    margin-left: 900px;
+    max-width: 25%;
+  }
+  .CuadroContacto {
+    margin-right: 1500px;
+    position: relative;
+    left: 750px;
+  }
+  .Contacto {
+    margin-bottom: 20px;
+    position: relative;
+    left: 750px;
+  }
+  .RedesSocialesContacto {
+    margin-top: 30px;
+    position: relative;
+    left: 767px;
+  }
 }
-            
-
-        
-
-@media screen and (min-width: 1200px) {}
+/*# sourceMappingURL=style.css.map */
