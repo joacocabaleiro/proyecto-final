@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +19,7 @@ h2{
     margin-top: 170px;
 }
 .BodyIndex{
-    background-color: rgb(250, 204, 77);
+    background-color: $Naranja_Fondo;
 }
 .BodyMenu{
     display:inline; 
@@ -42,7 +43,7 @@ h2{
     margin-top: 6px;
 }
 body{
-    background-color: rgb(250, 204, 77);
+    background-color: $Naranja_Fondo;
 }
 main{
     margin-top: 150px;
@@ -174,7 +175,7 @@ header .NavContainer .BodyMenu li{
         top:0 ;
         z-index: 1;
         width:100%;
-        background-color: #FAC3AD;
+        background-color:$Rosa_fondo;
     }  
     #Menu{
         display:none;
@@ -279,3 +280,4 @@ header .NavContainer .BodyMenu li{
         
 
 @media screen and (min-width: 1200px) {}
+
