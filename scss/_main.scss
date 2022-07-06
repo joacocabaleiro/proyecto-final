@@ -1,0 +1,70 @@
+h2{
+    margin-top: 170px;
+}
+.FormularioContacto{
+    margin-top: 6px;
+}
+.CuadroContacto{
+    position:relative ;
+    left:750px
+}
+.Contacto{
+    margin-bottom: 20px;
+    position:relative;
+    left: 750px;
+}
+.TituloContacto{
+    margin-bottom: 20px;
+    position:relative;
+    left:700px
+}
+.RedesSocialesContacto{
+    margin-top: 30px;
+    position:relative;
+    left:767px
+}
+.FotosComprar{
+
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-items: stretch;
+    justify-content:space-between ;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 360px 360px 360px 360px ;
+    grid-column-gap:5px ;
+    grid-template-rows: 450px 450px 450px;
+    grid-row-gap:5px ;
+}
+img{
+    transition: 0.5s;
+}
+.FotosComprar img:hover{
+    transform:scale(1.5)
+
+}
+.TituloComprar{
+    font-size: xx-large;
+}
+.Slogan{
+    margin-top: 250px;
+    font-size: x-large; 
+}
+.BodyIndex{
+    background-color: $Naranja_Fondo;
+}
+.BodyMenu{
+    display:inline; 
+    padding: 0px;
+    margin-right: 70px;
+        a{
+        font-size:x-large;
+    }
+}
+body{
+    background-color: $Naranja_Fondo;
+}
+main{
+    margin-top: 150px;
+}

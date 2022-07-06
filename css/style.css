@@ -81,9 +81,9 @@ main {
 }
 
 .CuadroContacto {
-  margin-right: 1500px;
   position: relative;
   left: 750px;
+  max-width: min-content;
 }
 
 .Contacto {

@@ -1,87 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-h1 {
-  margin-top: 5px;
+.Wave {
   margin-bottom: 0;
-  padding-bottom: 0;
-  position: relative;
-  left: 85px;
-  bottom: 90px;
-  font-size: 400%;
-  color: #2d2d9c;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h2 {
-  margin-top: 170px;
-}
-
-.BodyIndex {
-  background-color: #facc4d;
-}
-
-.BodyMenu {
-  display: inline;
-  padding: 0px;
-  margin-right: 70px;
-}
-
-.BodyMenu a {
-  font-size: x-large;
+  z-index: -1;
 }
 
 .Logo {
   max-width: 100px;
 }
 
-.FotoPrincipal {
-  max-width: 70%;
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  left: 100px;
+h2 {
+  margin-top: 170px;
 }
 
 .FormularioContacto {
   margin-top: 6px;
 }
 
-body {
-  background-color: #facc4d;
-}
-
-main {
-  margin-top: 150px;
-}
-
-.NavBotonComprar {
-  position: relative;
-  bottom: 600px;
-  display: inline-block;
-  background-color: #fac3ad;
-  color: black;
-  border: none;
-  color: black;
-  padding: 10px;
-  text-align: left;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.NavBotonComprar a {
-  position: relative;
-  color: black;
-  text-decoration: none;
-}
-
 .CuadroContacto {
-  margin-right: 1500px;
   position: relative;
   left: 750px;
 }
@@ -104,36 +38,6 @@ main {
   left: 767px;
 }
 
-/*header{
-    position:fixed;
-    top:0;
-    z-index: 1;
-    width: 100%;
-    max-height:min-content;
-    background-color: #FAC3AD;
-    grid-area: header;
-}
-header .NavContainer{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-header .NavContainer .Logo{
-    width: 70px;
-}
-header .NavContainer .BodyMenu{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-header .NavContainer .BodyMenu li{
-    list-style: none;
-    margin-right: 20px;
-}*/
 .FotosComprar {
   margin-top: 100px;
   margin-left: 40px;
@@ -174,9 +78,26 @@ img {
   font-size: x-large;
 }
 
-.Wave {
-  margin-bottom: 0;
-  z-index: -1;
+.BodyIndex {
+  background-color: #facc4d;
+}
+
+.BodyMenu {
+  display: inline;
+  padding: 0px;
+  margin-right: 70px;
+}
+
+.BodyMenu a {
+  font-size: x-large;
+}
+
+body {
+  background-color: #facc4d;
+}
+
+main {
+  margin-top: 150px;
 }
 
 @media screen and (min-width: 320px) {
@@ -304,5 +225,11 @@ img {
     position: relative;
     left: 767px;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
