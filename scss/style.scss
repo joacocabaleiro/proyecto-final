@@ -1,4 +1,7 @@
-
+@import "variables";
+@import"footer";
+@import"header";
+@import"main";
 *{
     margin: 0;
     padding: 0;
@@ -25,10 +28,11 @@ h2{
     display:inline; 
     padding: 0px;
     margin-right: 70px;
+        a{
+        font-size:x-large;
+    }
 }
-.BodyMenu a{
-    font-size:x-large;
-}
+
 .Logo{
    max-width: 100px;   
 }
@@ -64,12 +68,13 @@ main{
     
     cursor:pointer;
     border-radius:5px;
+        a{
+        position:relative;
+        color:black;
+        text-decoration: none;
+    }
 }
-.NavBotonComprar a{
-    position:relative;
-    color:black;
-    text-decoration: none;
-}
+
 
 .CuadroContacto{
     margin-right: 1500px;
@@ -135,7 +140,7 @@ header .NavContainer .BodyMenu li{
     grid-template-rows: 450px 450px 450px;
     grid-row-gap:5px ;
 }
-.FotosComprar img{
+img{
     transition: 0.5s;
 }
 .FotosComprar img:hover{
