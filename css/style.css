@@ -82,20 +82,20 @@ main {
 
 .CuadroContacto {
   position: relative;
-  left: 750px;
+
   max-width: min-content;
 }
 
 .Contacto {
   margin-bottom: 20px;
   position: relative;
-  left: 750px;
+
 }
 
 .TituloContacto {
   margin-bottom: 20px;
   position: relative;
-  left: 700px;
+
 }
 
 .RedesSocialesContacto {

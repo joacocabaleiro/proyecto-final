@@ -17,19 +17,25 @@ h2 {
 
 .CuadroContacto {
   position: relative;
-  left: 750px;
+  margin-left: 0ch;
+  margin-right: 0ch;
 }
 
 .Contacto {
   margin-bottom: 20px;
   position: relative;
-  left: 750px;
+  margin-left: 0ch;
+  margin-right: 0ch;
+  padding-left: 0cm;
+  padding-right: 0cm;
+  max-width: 5px;
 }
 
 .TituloContacto {
   margin-bottom: 20px;
   position: relative;
-  left: 700px;
+  margin-left: 0cm;
+  margin-right: 0cm;
 }
 
 .RedesSocialesContacto {
