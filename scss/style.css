@@ -11,37 +11,23 @@ h2 {
   margin-top: 170px;
 }
 
+.CuadroContacto, .ContactoH2, .RedesSocialesContacto {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .FormularioContacto {
   margin-top: 6px;
 }
 
-.CuadroContacto {
-  position: relative;
-  margin-left: 0ch;
-  margin-right: 0ch;
-}
-
-.Contacto {
-  margin-bottom: 20px;
-  position: relative;
-  margin-left: 0ch;
-  margin-right: 0ch;
-  padding-left: 0cm;
-  padding-right: 0cm;
-  max-width: 5px;
-}
-
-.TituloContacto {
-  margin-bottom: 20px;
-  position: relative;
-  margin-left: 0cm;
-  margin-right: 0cm;
-}
-
 .RedesSocialesContacto {
   margin-top: 30px;
-  position: relative;
-  left: 767px;
 }
 
 .FotosComprar {
@@ -151,19 +137,14 @@ main {
     margin: 0;
     max-width: 100%;
   }
-  .CuadroContacto {
+  .CuadroContacto, .ContactoH2, .RedesSocialesContacto {
     position: relative;
-    left: 100px;
   }
   .Contacto {
     margin-bottom: 20px;
-    position: relative;
-    left: 75px;
   }
   .RedesSocialesContacto {
     margin-top: 30px;
-    position: relative;
-    left: 77px;
   }
 }
 
@@ -216,20 +197,17 @@ main {
     margin-left: 900px;
     max-width: 25%;
   }
-  .CuadroContacto {
-    margin-right: 1500px;
-    position: relative;
-    left: 750px;
-  }
   .Contacto {
     margin-bottom: 20px;
-    position: relative;
-    left: 750px;
-  }
-  .RedesSocialesContacto {
-    margin-top: 30px;
-    position: relative;
-    left: 767px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

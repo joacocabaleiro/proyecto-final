@@ -42,17 +42,12 @@
     }
     .CuadroContacto{
         position:relative ;
-        left:100px
     }
     .Contacto{
         margin-bottom: 20px;
-        position:relative;
-        left:75px;
     }
     .RedesSocialesContacto{
         margin-top: 30px;
-        position:relative;
-        left:77px
     }
 }
 
@@ -62,11 +57,14 @@
 @media screen and (min-width: 600px) {}
 
 @media screen and (min-width: 768px) { 
+    @mixin displaynone{
+        display:none
+    }
     .MenuBurguer_label{
-        display:none;
+        @include displaynone();
     }
     #Menu{
-        display:none;
+        @include displaynone();
     }
    
 }
@@ -102,22 +100,13 @@
         margin-left: 900px;
         max-width:25%;
     }
-
-    .CuadroContacto{
-        margin-right: 1500px;
-        position:relative ;
-        left:750px
-    }
     .Contacto{
         margin-bottom: 20px;
-        position:relative;
-        left: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .RedesSocialesContacto{
-        margin-top: 30px;
-        position:relative;
-        left:767px
-    }
+   
 }
             
 
