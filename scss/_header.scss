@@ -1,3 +1,7 @@
-.Logo{
+@import "variables";
+Logo{
     max-width: 100px;   
  }
+.navbar{
+    background-color: $Color_Navbar;
+}

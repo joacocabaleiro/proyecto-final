@@ -1,8 +1,16 @@
 @import "variables";
 h2{
     margin-top: 170px;
+    text-align: center;
 }
-
+main{
+    nav{  
+        p{
+        color: $Color_texto;
+        }
+    }
+  
+}
 .CuadroContacto{
     display:grid;
     justify-content:center;
@@ -18,6 +26,9 @@ h2{
 .RedesSocialesContacto{
     @extend .CuadroContacto;
     margin-top: 30px;
+    li{
+        text-decoration: none;
+    }
 }
 .FotosComprar{
 
@@ -46,9 +57,13 @@ img{
 .Slogan{
     margin-top: 250px;
     font-size: x-large; 
+    margin-left: 10px;
+}
+.btn{
+    margin-left: 10px;
 }
 .BodyIndex{
-    background-color: $Naranja_Fondo;
+    background-color: $Color_fondo;
 }
 .BodyMenu{
     display:inline; 
@@ -59,19 +74,26 @@ img{
     }
 }
 body{
-    background-color:$Naranja_Fondo;
+    background-color: $Color_fondo;
 }
 main{
     margin-top: 150px;
 } 
 .InfoImportante{
     div{
+        text-align: center;
         font-size: larger;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
     }
+    h5{
+        margin-top: 15%;
+        text-align: center;
+    }
+    h6{
+        text-align: center;
+    }
     .letrachica{
-        font-size: x-small;
-        max-width: 30%;
+        font-size:smaller;
     }
 }
 .NavFotoLibro{

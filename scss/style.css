@@ -1,14 +1,34 @@
+/*rgb(95, 43, 6) #CEB16C #EC617F*/
 .Wave {
   margin-bottom: 0;
   z-index: -1;
 }
 
-.Logo {
+footer {
+  text-align: center;
+}
+
+footer section p {
+  color: #FAC3AD;
+}
+
+/*rgb(95, 43, 6) #CEB16C #EC617F*/
+Logo {
   max-width: 100px;
 }
 
+.navbar {
+  background-color: #e0a6c8;
+}
+
+/*rgb(95, 43, 6) #CEB16C #EC617F*/
 h2 {
   margin-top: 170px;
+  text-align: center;
+}
+
+main nav p {
+  color: #310303;
 }
 
 .CuadroContacto, .ContactoH2, .RedesSocialesContacto {
@@ -28,6 +48,10 @@ h2 {
 
 .RedesSocialesContacto {
   margin-top: 30px;
+}
+
+.RedesSocialesContacto li {
+  text-decoration: none;
 }
 
 .FotosComprar {
@@ -68,10 +92,15 @@ img {
 .Slogan {
   margin-top: 250px;
   font-size: x-large;
+  margin-left: 10px;
+}
+
+.btn {
+  margin-left: 10px;
 }
 
 .BodyIndex {
-  background-color: #facc4d;
+  background-color: #c5a04a;
 }
 
 .BodyMenu {
@@ -85,7 +114,7 @@ img {
 }
 
 body {
-  background-color: #facc4d;
+  background-color: #c5a04a;
 }
 
 main {
@@ -93,13 +122,22 @@ main {
 }
 
 .InfoImportante div {
+  text-align: center;
   font-size: larger;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.InfoImportante h5 {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.InfoImportante h6 {
+  text-align: center;
+}
+
 .InfoImportante .letrachica {
-  font-size: x-small;
-  max-width: 30%;
+  font-size: smaller;
 }
 
 .NavFotoLibro {
@@ -108,6 +146,7 @@ main {
   top: -2rem;
 }
 
+/*rgb(95, 43, 6) #CEB16C #EC617F*/
 @media screen and (min-width: 320px) {
   .FotosComprar {
     display: -ms-grid;
@@ -133,7 +172,7 @@ main {
     top: 0;
     z-index: 1;
     width: 100%;
-    background-color: #FAC3AD;
+    background-color: #322E53;
   }
   #Menu {
     display: none;
@@ -227,9 +266,9 @@ main {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
+/**{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}*/
 /*# sourceMappingURL=style.css.map */
