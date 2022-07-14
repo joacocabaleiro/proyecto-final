@@ -33,14 +33,17 @@
         margin: 0;
         padding: 0;
     }
+ 
+    .NavFotoLibro{
+        margin-top: 20%;
+        max-width: 80%;
+        justify-content: center;
 
+    }
     .BodyMenu li{
         background-color:#775cff ;
     }
-    .NavFotoLibro{
-        margin: 0;
-        max-width: 100% ;
-    }
+    
     .CuadroContacto{
         position:relative ;
     }
@@ -66,6 +69,10 @@
     }
     #Menu{
         @include displaynone();
+    }
+    .NavFotoLibro{
+        margin: 0;
+        max-width: 100% ;
     }
    
 }

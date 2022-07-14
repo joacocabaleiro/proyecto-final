@@ -185,12 +185,15 @@ main {
     margin: 0;
     padding: 0;
   }
+  .NavFotoLibro {
+    margin-top: 20%;
+    max-width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .BodyMenu li {
     background-color: #775cff;
-  }
-  .NavFotoLibro {
-    margin: 0;
-    max-width: 100%;
   }
   .CuadroContacto, .ContactoH2, .RedesSocialesContacto {
     position: relative;
@@ -209,6 +212,10 @@ main {
   }
   #Menu {
     display: none;
+  }
+  .NavFotoLibro {
+    margin: 0;
+    max-width: 100%;
   }
 }
 
